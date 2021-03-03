@@ -1,0 +1,157 @@
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.page-header {
+    width: 100%;
+    background-color: #445161;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.page-header::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.page-header-wrp {
+    box-sizing: border-box;
+    float: left;
+}
+.page-header-title {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.page-header-list {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.page-header-list-item {
+    position: relative;
+}
+.page-header-list-item:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../project/img/Tick.png);
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: -21px;
+}
+.page-header-img {
+    display: block;
+    width: 400px;
+    background-color: #fff;
+    float: right;
+}
+.main {
+    padding: 50px;
+}
+.about {
+    width: 100%;
+    box-sizing: border-box;
+}
+.about::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.about-wrp {
+    box-sizing: border-box;
+    float: left;
+}
+.about-titl {
+    font-size: 40px;
+    font-weight: 400;
+}
+.about-text {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.about-img {
+    display: block;
+    width: 400px;
+    background-color: #445161;
+    float: right;
+}
+.dignity {
+    width: 100%;
+    box-sizing: border-box;
+}
+.dignity-title {
+    font-size: 40px;
+    font-weight: 400;
+    display: block;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.dignity-item-wrp {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.dignity-item {
+    width: 100%;
+    min-height: 30px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    position: relative;
+}
+.dignity-item:before {
+    content: "+";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #445161;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    left: -30px;
+}
+.screenshots {
+    width: 100%;
+    box-sizing: border-box;
+}
+.screenshots-title {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.screenshots-item-wrp {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.screenshots-item {
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+.screenshots-photo {
+    display: block;
+    margin: 0 20px 0 0;
+    background-color: #445161;
+    float: left;
+}
+.screenshots-item-txt {
+    width: 100%;
+    box-sizing: border-box;
+}
